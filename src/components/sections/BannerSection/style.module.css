@@ -1,0 +1,27 @@
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3.1875rem;
+}
+
+.flexbox > img,
+.flexbox > div {
+    width: 100%;
+}
+
+@media (min-width: 870px) {
+    .flexbox {
+        flex-direction: row;
+    }
+
+    .flexbox > img,
+    .flexbox > div {
+        width: 50%;
+    }
+}
+
+.flexbox p {
+    margin-bottom: 100px;
+}

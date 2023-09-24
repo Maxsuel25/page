@@ -1,0 +1,13 @@
+.categoriesSection h2 {
+    margin-bottom: 2.5625rem;
+}
+
+.categoriesList {
+    display: flex;
+    gap: 3.8125rem;
+    overflow: auto;
+}
+
+.categoriesList li {
+    min-width: 174px;
+}
